@@ -1,0 +1,113 @@
+#footer{
+	padding: 65px 40px 30px;
+	background: #313132;
+	img{
+		display: block;
+	}
+	i{
+ color: #777;
+ padding: 0px 6px;
+ font-size: 18px;
+ line-height: 30px;
+ cursor: pointer;
+ transition:all 1.2s ease;
+ margin-top: 60px;
+ &:hover{
+ 	color: $colorBtn;
+ 	font-size: 19px;
+ }
+}
+p{
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 0;
+	
+}
+hr{
+		margin-top: 10px;
+		color: #777;
+	}
+span{
+	color: #777;
+}
+input{
+	margin-top: 10px;
+	border-radius: 50px;
+	padding: 20px;
+}
+button{
+	position: absolute;
+	top: 152px;
+	left: 193px;
+	border-radius: 50px;
+	background: $colorBtn;
+	border: none;
+	padding: 11px 13px;
+}
+.number, .map{
+	width: 100%;
+	height: 50px;
+	i{
+		color: white;
+		margin: 0px;
+		display: inline-block;
+		float: left;
+	}
+
+	p{
+		font-size: 12px;
+		float: left;
+		margin-left: 10px;
+		color: #777;
+		font-weight: normal;
+		cursor: pointer;
+		&:hover{
+			color: $colorBtn;
+			transition: .7s ease;
+		}
+	}
+}
+.mail, .clock{
+	width: 100%;
+	height: 30px;
+		i{
+		color: white;
+		margin: 0px;
+		display: inline-block;
+		float: left;
+	}
+	p{
+		font-size: 13px;
+		float: left;
+		margin-left: 10px;
+		color: $colorBtn;
+		font-weight: normal;
+		cursor: pointer;
+		&:hover{
+			color: lighten($colorBtn,20%);
+			transition: .7s ease;
+		}
+	}
+}
+.clock{
+	p{
+		color: #777;
+		cursor: auto;
+		&:hover{
+			color: #777;
+		}
+	}
+}
+.footerText{
+	color: #777;
+	font-size: 15px;
+	margin-top: 60px;
+	cursor: pointer;
+	&:hover{
+		color: $colorBtn;
+		transition:.7s ease;
+	}
+}
+
+}

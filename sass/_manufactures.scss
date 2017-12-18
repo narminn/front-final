@@ -1,0 +1,89 @@
+#manufactures{
+
+	.manufac{
+		width: 100%;
+		height: 550px;
+		background-image: url(../img/parallax-1.jpg);
+		background-size: cover;
+		background-position: center center;
+		position: relative;
+		.blackMan{
+			height: 550px;
+			background-color: rgba(0,0,0,.5);
+		}
+		.manTop{
+			width: 100%;
+			height: 50px;
+			background: #fff;
+			z-index: 77;
+			opacity: .5;
+			position: absolute;
+			top: 0;
+
+		}
+		.manBottom{
+			width: 100%;
+			height: 50px;
+			background: #fff;
+			z-index: 77;
+			opacity: .5;
+			position: absolute;
+			bottom: 0;
+		}
+		p{
+			color: white;
+			font-size: 50px;
+			margin-top: 100px;
+			font-weight: bold;
+		}
+		.manLiner{
+				height: 2px;
+				width: 40px;
+				background: $colorBtn;
+				position: absolute;
+				left: calc(50% - 20px);
+				top: 200px;
+
+		}
+		.dots{
+			width: 100px;
+			height: 30px;
+			position: absolute;
+			z-index: 5;
+			top: 400px;
+			left: calc(50% - 50px);
+			.dotFirst, .dotSecond, .dotThird{
+				width: 12px;
+				height: 12px;
+				margin: 5px;
+				display: inline-block;
+				border-radius: 100%;
+				background: #777;
+				cursor: pointer;
+				&:hover{
+					background: $colorBtn;
+					transition: .7s ease;
+				}
+			}
+		}
+		.ManSlide{
+			width: 100%;
+			height: 200px;
+			overflow: hidden;
+		}
+		.innerMan{
+			margin-right: 39px;
+			margin-top: 100px;
+			opacity: .6;
+			cursor: pointer;
+			&:hover{
+				opacity: 1;
+				transition: .7s ease;
+			}
+			img{
+			
+		}
+		}
+		
+	}
+}
